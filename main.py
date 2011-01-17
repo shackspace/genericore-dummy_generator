@@ -45,6 +45,6 @@ while True:
       body=data)
   if args.repeat == 0:
      exit(0)
-  log.info('Waiting %d for next publish' %args.timeout)
-  time.sleep(args.timeout)
+  log.info('Waiting %d for next publish' %args.repeat)
+  time.sleep( args.repeat)
 
